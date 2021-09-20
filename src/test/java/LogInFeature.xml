@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="LogIn Feature">
+	<test name="LogIn Feature Test" parallel="none">
+		<parameter name="usageBrowserName" value="Chrome" />
+		<classes>
+			<class name="testModules.LogInTest" />
+		</classes>
+	</test>
+</suite>
